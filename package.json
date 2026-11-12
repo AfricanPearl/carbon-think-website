@@ -1,0 +1,13 @@
+{
+  "name": "carbon-think-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Carbon Think website with built-in admin portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

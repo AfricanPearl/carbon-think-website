@@ -1,0 +1,184 @@
+{
+  "site": {
+    "name": "Carbon Think",
+    "domain": "carbon-think.org",
+    "title": "Carbon Think — Climate Resilience for Sudan",
+    "description": "Carbon Think is a Sudanese social enterprise unlocking climate finance and carbon markets, building local capacity, and generating the evidence that drives climate investment in Sudan.",
+    "logoImage": "",
+    "faviconImage": "",
+    "shareImage": "",
+    "address": "Khartoum, Sudan",
+    "copyright": "Carbon Think. All rights reserved."
+  },
+  "nav": {
+    "ctaLabel": "Partner with us",
+    "ctaLink": "#contact"
+  },
+  "hero": {
+    "eyebrow": "Social enterprise · Sudan",
+    "title": "Climate resilience, *led by* Sudanese communities.",
+    "lead": "We connect Sudanese communities, cooperatives and startups to climate finance and carbon markets, build their technical capacity, and generate the data needed to design fundable projects — while safeguarding ecosystems and indigenous practices.",
+    "primaryButton": { "label": "Explore our work", "link": "#pillars" },
+    "secondaryButton": { "label": "Get in touch", "link": "#contact" },
+    "backgroundImage": "",
+    "glanceTitle": "At a glance",
+    "glance": [
+      { "number": "0", "label": "Accredited Direct Access Entities to the Green Climate Fund in Sudan today" },
+      { "number": "3", "label": "Pillars: finance & markets, training, research & data" },
+      { "number": "1", "label": "Sudan-focused Climate Catalytic Fund in development" }
+    ],
+    "standardsLabel": "Developing projects under recognised standards",
+    "standards": ["Gold Standard", "Verra · VCS", "Puro.Earth", "UNFCCC · GCF"]
+  },
+  "about": {
+    "show": true,
+    "navLabel": "About",
+    "kicker": "Who we are",
+    "heading": "A bridge between Sudan's frontline communities and the world's climate capital.",
+    "paragraphs": [
+      "Carbon Think is a social enterprise helping Sudanese communities, cooperatives and startups build climate resilience. We close the gap between local knowledge and international finance — turning community-led ideas into bankable, standards-compliant projects.",
+      "Our work protects ecosystems and honours the indigenous practices that have sustained Sudan's land for generations."
+    ],
+    "image": "",
+    "imageAlt": "",
+    "mission": "To enable Sudanese communities to build climate resilience by unlocking finance and markets, strengthening local capacity, and generating the evidence that drives investment.",
+    "vision": "A Sudan where climate-vulnerable communities lead and benefit from their own resilience and low-carbon development."
+  },
+  "problem": {
+    "show": true,
+    "navLabel": "The Challenge",
+    "kicker": "The challenge",
+    "heading": "Access to finance is one of the greatest barriers to climate resilience in Sudan.",
+    "cards": [
+      { "title": "No direct access to the Green Climate Fund", "text": "Sudan has no accredited Direct Access Entity (DAE) to the GCF — the largest dedicated climate fund under the UNFCCC. Communities and organisations face complex bureaucratic obstacles to securing vital climate finance." },
+      { "title": "Limited awareness & technical capacity", "text": "Many local stakeholders lack awareness of available climate funding mechanisms and the technical capacity to develop fundable, climate-resilient projects that meet international standards." },
+      { "title": "Livelihoods left exposed", "text": "Grassroots organisations, cooperatives and entrepreneurs lack the training, finance and market linkages needed to climate-proof their livelihoods." }
+    ]
+  },
+  "pillars": {
+    "show": true,
+    "navLabel": "What We Do",
+    "kicker": "Our response",
+    "heading": "Three pillars. One resilient Sudan.",
+    "intro": "We work across the full journey — from first idea to funded, verified, market-ready project.",
+    "items": [
+      { "icon": "finance", "title": "Access to funds & markets", "text": "Blended finance — grants, concessional loans and guarantees — through a Sudan-focused Climate Catalytic Fund, plus market access through high-quality voluntary carbon credits (VERs).", "featured": false, "points": ["Grants & concessional loans", "Risk-sharing guarantees", "Voluntary carbon credit sales"] },
+      { "icon": "training", "title": "Guidance & training", "text": "Incubators, hackathons and technical assistance that build a pipeline of climate-resilient businesses and community-led projects ready for investment.", "featured": true, "points": ["Climate venture incubation", "Hackathons & innovation challenges", "Project design technical assistance"] },
+      { "icon": "research", "title": "Research & data", "text": "Evidence on climate vulnerability, adaptation needs and carbon market opportunities in Sudan — the foundation every fundable project needs.", "featured": false, "points": ["Vulnerability & adaptation studies", "Carbon market opportunity mapping", "Awareness tools on climate finance"] }
+    ]
+  },
+  "fund": {
+    "show": true,
+    "navLabel": "Catalytic Fund",
+    "kicker": "Objective 01",
+    "heading": "The Sudan Climate Catalytic Fund",
+    "text": "We are establishing a Climate Catalytic Fund to support communities and startups with blended finance. By layering grants, concessional loans and guarantees, the Fund absorbs early risk so local and international investors can follow.",
+    "image": "",
+    "imageAlt": "",
+    "layers": [
+      { "title": "Grants", "text": "De-risk early-stage ideas" },
+      { "title": "Concessional loans", "text": "Below-market capital to scale" },
+      { "title": "Guarantees", "text": "Unlock private & international investors" }
+    ],
+    "points": [
+      { "label": "Who it serves", "value": "Communities, cooperatives & climate startups" },
+      { "label": "How it works", "value": "Blended, catalytic capital matched to project stage" },
+      { "label": "Why it matters", "value": "Fills the gap left by the absence of a Sudanese GCF DAE" }
+    ],
+    "button": { "label": "Invest in the Fund", "link": "mailto:fund@carbon-think.org" }
+  },
+  "carbon": {
+    "show": true,
+    "navLabel": "Carbon Markets",
+    "kicker": "Objective 02",
+    "heading": "Reviving Sudan's carbon market prospects.",
+    "intro": "We develop projects under recognised standards and link them to buyers — so high-integrity carbon finance flows back to the communities doing the work.",
+    "steps": [
+      { "title": "Identify & design", "text": "Work with communities and project developers to identify nature-based and low-carbon opportunities." },
+      { "title": "Certify", "text": "Develop projects under Gold Standard, Verra (VCS) and Puro.Earth methodologies." },
+      { "title": "Verify", "text": "Coordinate independent project verifiers to ensure integrity and transparency." },
+      { "title": "Connect to buyers", "text": "Link high-quality VERs to responsible buyers, with benefits shared with communities." }
+    ],
+    "ctaText": "**Buying or developing carbon credits?** Talk to our carbon markets team.",
+    "ctaButton": { "label": "carbon@carbon-think.org", "link": "mailto:carbon@carbon-think.org" }
+  },
+  "research": {
+    "show": true,
+    "navLabel": "",
+    "kicker": "Objective 03",
+    "heading": "Research & awareness tools",
+    "intro": "We produce research and awareness tools on climate finance and resilience — making evidence accessible to communities, policymakers and investors.",
+    "items": [
+      { "tag": "Vulnerability", "title": "Mapping climate vulnerability across Sudan's regions", "text": "Understanding where climate risks hit hardest, and who is most exposed.", "image": "", "link": "" },
+      { "tag": "Adaptation", "title": "Adaptation needs of farmers, pastoralists & cooperatives", "text": "Grounding project design in the realities of local livelihoods and indigenous practice.", "image": "", "link": "" },
+      { "tag": "Carbon markets", "title": "Carbon market opportunities in Sudan", "text": "Assessing the pipeline of high-integrity carbon projects and the pathways to market.", "image": "", "link": "" }
+    ]
+  },
+  "gallery": {
+    "show": false,
+    "navLabel": "",
+    "kicker": "In the field",
+    "heading": "Our work in pictures",
+    "images": []
+  },
+  "partners": {
+    "show": true,
+    "navLabel": "Partners",
+    "kicker": "Our ecosystem",
+    "heading": "Built with the people who make climate finance work.",
+    "items": [
+      { "category": "Market", "name": "Project developers", "note": "", "logo": "", "link": "" },
+      { "category": "Market", "name": "VER buyers", "note": "", "logo": "", "link": "" },
+      { "category": "Integrity", "name": "Standards bodies", "note": "Gold Standard, VCS, Puro.Earth", "logo": "", "link": "" },
+      { "category": "Integrity", "name": "Project verifiers", "note": "", "logo": "", "link": "" },
+      { "category": "Government", "name": "Ministry of Environment", "note": "", "logo": "", "link": "" },
+      { "category": "Government", "name": "Forest National Corporation", "note": "", "logo": "", "link": "" },
+      { "category": "Regional", "name": "East African Alliance on Carbon Markets", "note": "", "logo": "", "link": "" },
+      { "category": "Capital", "name": "Local private investors", "note": "", "logo": "", "link": "" },
+      { "category": "Capital", "name": "International investors", "note": "", "logo": "", "link": "" }
+    ]
+  },
+  "involve": {
+    "show": true,
+    "navLabel": "",
+    "kicker": "Get involved",
+    "heading": "Find your place in the work.",
+    "items": [
+      { "title": "Communities & cooperatives", "text": "Access training, technical support and finance to climate-proof your livelihoods.", "email": "programs@carbon-think.org" },
+      { "title": "Startups & entrepreneurs", "text": "Join our incubator and hackathons to build an investable climate venture.", "email": "incubator@carbon-think.org" },
+      { "title": "Investors & funders", "text": "Co-invest in the Climate Catalytic Fund and a pipeline of vetted projects.", "email": "fund@carbon-think.org" },
+      { "title": "Institutions & government", "text": "Partner with us on policy, accreditation pathways and national climate goals.", "email": "partnerships@carbon-think.org" }
+    ]
+  },
+  "contact": {
+    "show": true,
+    "navLabel": "",
+    "kicker": "Contact",
+    "heading": "Let's build Sudan's climate future together.",
+    "intro": "Reach the right team directly, or send us a message and we'll route it.",
+    "emails": [
+      { "label": "General enquiries", "email": "info@carbon-think.org" },
+      { "label": "Partnerships", "email": "partnerships@carbon-think.org" },
+      { "label": "Climate Catalytic Fund", "email": "fund@carbon-think.org" },
+      { "label": "Carbon markets & VERs", "email": "carbon@carbon-think.org" },
+      { "label": "Research & data", "email": "research@carbon-think.org" },
+      { "label": "Programs & training", "email": "programs@carbon-think.org" },
+      { "label": "Media & press", "email": "media@carbon-think.org" },
+      { "label": "Careers", "email": "careers@carbon-think.org" }
+    ],
+    "topics": [
+      { "label": "Community / cooperative", "email": "programs@carbon-think.org" },
+      { "label": "Startup / entrepreneur", "email": "incubator@carbon-think.org" },
+      { "label": "Investor / funder", "email": "fund@carbon-think.org" },
+      { "label": "Carbon credit buyer or developer", "email": "carbon@carbon-think.org" },
+      { "label": "Government / institution", "email": "partnerships@carbon-think.org" },
+      { "label": "Researcher", "email": "research@carbon-think.org" },
+      { "label": "Media", "email": "media@carbon-think.org" }
+    ],
+    "successMessage": "Thank you — your message has reached our team. We'll reply by email."
+  },
+  "footer": {
+    "text": "Enabling Sudanese communities to build climate resilience by unlocking finance and markets, strengthening local capacity, and generating the evidence that drives investment.",
+    "social": []
+  }
+}

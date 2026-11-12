@@ -1,0 +1,20 @@
+# Render blueprint: one web service with a persistent disk for content, images and messages
+services:
+  - type: web
+    name: carbon-think
+    runtime: node
+    plan: starter
+    buildCommand: "true"
+    startCommand: node server.js
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATA_DIR
+        value: /var/data
+      - key: ADMIN_PASSWORD
+        sync: false
+    disk:
+      name: carbon-think-data
+      mountPath: /var/data
+      sizeGB: 1

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Carbon Think Admin</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+
+<!-- Login -->
+<div class="login" id="loginView" hidden>
+  <form class="login-card" id="loginForm">
+    <div class="login-brand">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 31c-6-3-9-8-9-13 5 0 9 3 9 9 0-8 4-13 10-15 0 9-3 16-10 19z" fill="currentColor"/></svg>
+      <span>Carbon Think <small>Admin</small></span>
+    </div>
+    <h1>Sign in to edit the website</h1>
+    <label for="password">Admin password</label>
+    <input type="password" id="password" autocomplete="current-password" required autofocus>
+    <button type="submit" class="btn btn-primary">Sign in</button>
+    <p class="login-error" id="loginError" role="alert"></p>
+  </form>
+</div>
+
+<!-- App -->
+<div class="app" id="appView" hidden>
+  <header class="topbar">
+    <div class="topbar-brand">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 31c-6-3-9-8-9-13 5 0 9 3 9 9 0-8 4-13 10-15 0 9-3 16-10 19z" fill="currentColor"/></svg>
+      <span>Carbon Think <small>Admin</small></span>
+    </div>
+    <span class="save-state" id="saveState">All changes saved</span>
+    <div class="topbar-actions">
+      <button class="btn btn-ghost" id="togglePreview" type="button" aria-pressed="true">Hide preview</button>
+      <a class="btn btn-ghost" href="/" target="_blank" rel="noopener">View site ↗</a>
+      <button class="btn btn-ghost" id="discardBtn" type="button" disabled>Discard changes</button>
+      <button class="btn btn-primary" id="saveBtn" type="button" disabled>Publish changes</button>
+      <button class="btn btn-link" id="logoutBtn" type="button">Sign out</button>
+    </div>
+  </header>
+
+  <div class="workspace" id="workspace">
+    <nav class="sidebar" aria-label="Sections">
+      <p class="sidebar-label">Website content</p>
+      <ul id="sectionNav"></ul>
+      <p class="sidebar-label">Manage</p>
+      <ul>
+        <li><button type="button" data-view="media">Image library</button></li>
+        <li><button type="button" data-view="messages">Messages <span class="badge" id="messageCount" hidden></span></button></li>
+        <li><button type="button" data-view="history">Version history</button></li>
+      </ul>
+    </nav>
+
+    <main class="editor" id="editor" tabindex="-1"></main>
+
+    <aside class="preview" id="previewPane">
+      <div class="preview-bar">
+        <span>Live preview <small>(unpublished changes included)</small></span>
+        <div class="device-toggle" role="group" aria-label="Preview width">
+          <button type="button" data-device="desktop" class="active">Desktop</button>
+          <button type="button" data-device="mobile">Phone</button>
+        </div>
+      </div>
+      <div class="preview-frame-wrap"><iframe id="previewFrame" title="Website preview"></iframe></div>
+    </aside>
+  </div>
+</div>
+
+<!-- Image library picker -->
+<dialog class="modal" id="pickerDialog">
+  <div class="modal-head">
+    <h2>Choose an image</h2>
+    <button type="button" class="btn btn-link" id="pickerClose">Close</button>
+  </div>
+  <div class="media-grid" id="pickerGrid"></div>
+</dialog>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script src="/admin/admin.js"></script>
+</body>
+</html>
